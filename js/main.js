@@ -34,6 +34,6 @@ var swiper = new Swiper(".bg-slider-thumbs", {
   closeBtn.addEventListener("click",()=>{
     navigation.classList.remove("active");
   })
-  //interact.addEventListener("click",()=>{
-  //  navigation.classList.remove("active");
-  //})
+  interact.addEventListener("click",()=>{
+    navigation.classList.remove("active");
+  })

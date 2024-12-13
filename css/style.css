@@ -19,6 +19,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 h1,
 h2 {
@@ -105,15 +106,14 @@ header .nav-bar {
   display: none;
 }
 .nav-items {
-  position: relative;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
-  width: 550px;
 }
 .nav-items li {
   text-decoration: none;
   list-style: none;
+  margin: 0 10px;
 }
 .dropdown {
   position: absolute;
@@ -681,6 +681,15 @@ footer {
   text-align: center;
   color: var(--white-color);
 }
+.group-legal p, .correocontacto {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Gotham, 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  margin: 8px 0;
+}
+
 .group-legal p img {
   width: 60%;
   border-radius: 10px;
